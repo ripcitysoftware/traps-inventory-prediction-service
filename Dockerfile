@@ -13,4 +13,4 @@ WORKDIR /app
 HEALTHCHECK --interval=5m --timeout=3s \
   CMD curl -f http://localhost:8080/actuator/health
 
-CMD java -jar /app/inventory-service.jar
+CMD java -jar /app/inventory-prediction-service.jar
