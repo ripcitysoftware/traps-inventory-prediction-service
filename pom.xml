@@ -125,6 +125,12 @@
       <artifactId>httpclient</artifactId>
       <version>4.5.5</version>
     </dependency>
+    <dependency>
+      <groupId>au.com.dius</groupId>
+      <artifactId>pact-jvm-provider-junit5_2.12</artifactId>
+      <version>3.5.20</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
 	<build>
