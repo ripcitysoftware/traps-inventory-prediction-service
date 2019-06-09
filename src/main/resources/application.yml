@@ -5,3 +5,5 @@ spring:
       write_dates_as_timestamps: false
       write_durations_as_timestamps: false
       fail_on_empty_beans: false
+server:
+  port : 8081
