@@ -14,13 +14,7 @@ class RestTemplateConfig {
 
     @Bean
     fun restTemplate() : RestTemplate {
-        val httpClient = HttpClients.custom().setSSLHostnameVerifier(NoopHostnameVerifier()).build()
-
-        val requestFactory = HttpComponentsClientHttpRequestFactory()
-        requestFactory.httpClient = httpClient
-
         val restTemplate = RestTemplate()
-
         return restTemplate
     }
 }
