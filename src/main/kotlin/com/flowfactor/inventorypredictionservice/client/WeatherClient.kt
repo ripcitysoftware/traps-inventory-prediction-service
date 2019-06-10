@@ -4,7 +4,6 @@ import com.flowfactor.inventorypredictionservice.config.RestTemplateConfig
 import com.flowfactor.inventorypredictionservice.dto.WeatherResponseDto
 import mu.KotlinLogging
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.core.ParameterizedTypeReference
 import org.springframework.http.HttpMethod
 import org.springframework.stereotype.Service
 import org.springframework.web.client.RestTemplate
