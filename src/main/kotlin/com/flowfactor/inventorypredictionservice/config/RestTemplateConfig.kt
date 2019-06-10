@@ -19,7 +19,7 @@ class RestTemplateConfig {
         val requestFactory = HttpComponentsClientHttpRequestFactory()
         requestFactory.httpClient = httpClient
 
-        val restTemplate = RestTemplate(requestFactory)
+        val restTemplate = RestTemplate()
 
         return restTemplate
     }

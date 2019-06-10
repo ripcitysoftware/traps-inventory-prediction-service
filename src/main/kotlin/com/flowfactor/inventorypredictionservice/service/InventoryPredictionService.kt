@@ -31,7 +31,6 @@ class InventoryPredictionService(private val weatherClient: WeatherClient) {
         for (i in 1..5) {
             val weather = weatherClient.getWeatherByLocation("London")
             logger.info { weather }
-            //TODO use weather variable (result) in the StoreLocation object
             val store = StoreLocation(java.lang.Long.valueOf(i.toLong()), "London",weather.consolidatedWeather[i-1].weatherStateName)
             storeLocations.put(store.storeId, store)
 

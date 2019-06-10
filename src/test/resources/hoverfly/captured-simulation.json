@@ -4,6 +4,123 @@
       "request" : {
         "path" : [ {
           "matcher" : "exact",
+          "value" : "/api/location/44418"
+        } ],
+        "method" : [ {
+          "matcher" : "exact",
+          "value" : "GET"
+        } ],
+        "destination" : [ {
+          "matcher" : "exact",
+          "value" : "www.metaweather.com"
+        } ],
+        "scheme" : [ {
+          "matcher" : "exact",
+          "value" : "https"
+        } ],
+        "query" : { },
+        "body" : [ {
+          "matcher" : "exact",
+          "value" : ""
+        } ],
+        "headers" : {
+          "Accept" : [ {
+            "matcher" : "exact",
+            "value" : "application/xml, text/xml, application/json, application/cbor, application/*+xml, application/*+json"
+          } ],
+          "Connection" : [ {
+            "matcher" : "exact",
+            "value" : "keep-alive"
+          } ],
+          "User-Agent" : [ {
+            "matcher" : "exact",
+            "value" : "Java/1.8.0_162"
+          } ]
+        }
+      },
+      "response" : {
+        "status" : 301,
+        "encodedBody" : false,
+        "templated" : false,
+        "headers" : {
+          "Content-Language" : [ "en" ],
+          "Content-Type" : [ "text/html; charset=utf-8" ],
+          "Date" : [ "Mon, 10 Jun 2019 05:29:15 GMT" ],
+          "Hoverfly" : [ "Was-Here" ],
+          "Location" : [ "https://www.metaweather.com/api/location/44418/" ],
+          "Server" : [ "Google Frontend" ],
+          "Strict-Transport-Security" : [ "max-age=2592000; includeSubDomains" ],
+          "Transfer-Encoding" : [ "chunked" ],
+          "Vary" : [ "Accept-Language" ],
+          "X-Cloud-Trace-Context" : [ "c6f02c4e4623574da77c1e2334115989" ],
+          "X-Content-Type-Options" : [ "nosniff" ],
+          "X-Frame-Options" : [ "DENY" ],
+          "X-Xss-Protection" : [ "1; mode=block" ]
+        }
+      }
+    }, {
+      "request" : {
+        "path" : [ {
+          "matcher" : "exact",
+          "value" : "/api/location/44418/"
+        } ],
+        "method" : [ {
+          "matcher" : "exact",
+          "value" : "GET"
+        } ],
+        "destination" : [ {
+          "matcher" : "exact",
+          "value" : "www.metaweather.com"
+        } ],
+        "scheme" : [ {
+          "matcher" : "exact",
+          "value" : "https"
+        } ],
+        "query" : { },
+        "body" : [ {
+          "matcher" : "exact",
+          "value" : ""
+        } ],
+        "headers" : {
+          "Accept" : [ {
+            "matcher" : "exact",
+            "value" : "application/xml, text/xml, application/json, application/cbor, application/*+xml, application/*+json"
+          } ],
+          "Connection" : [ {
+            "matcher" : "exact",
+            "value" : "keep-alive"
+          } ],
+          "User-Agent" : [ {
+            "matcher" : "exact",
+            "value" : "Java/1.8.0_162"
+          } ]
+        }
+      },
+      "response" : {
+        "status" : 200,
+        "body" : "{\"consolidated_weather\":[{\"id\":5844334429601792,\"weather_state_name\":\"Heavy Rain\",\"weather_state_abbr\":\"hr\",\"wind_direction_compass\":\"N\",\"created\":\"2019-06-10T02:59:02.200892Z\",\"applicable_date\":\"2019-06-10\",\"min_temp\":10.485,\"max_temp\":13.7,\"the_temp\":12.2,\"wind_speed\":5.994519095750153,\"wind_direction\":358.0,\"air_pressure\":1013.7950000000001,\"humidity\":81,\"visibility\":5.038388312256423,\"predictability\":77},{\"id\":5052094459412480,\"weather_state_name\":\"Heavy Rain\",\"weather_state_abbr\":\"hr\",\"wind_direction_compass\":\"E\",\"created\":\"2019-06-10T02:59:02.005857Z\",\"applicable_date\":\"2019-06-11\",\"min_temp\":11.315,\"max_temp\":18.685,\"the_temp\":18.155,\"wind_speed\":3.771658200739681,\"wind_direction\":89.3519841056138,\"air_pressure\":1010.885,\"humidity\":63,\"visibility\":9.839102143482066,\"predictability\":77},{\"id\":5025947369603072,\"weather_state_name\":\"Light Rain\",\"weather_state_abbr\":\"lr\",\"wind_direction_compass\":\"NNE\",\"created\":\"2019-06-10T02:59:01.903201Z\",\"applicable_date\":\"2019-06-12\",\"min_temp\":11.215,\"max_temp\":14.559999999999999,\"the_temp\":15.375,\"wind_speed\":3.914112839526499,\"wind_direction\":16.15326038611193,\"air_pressure\":1010.895,\"humidity\":76,\"visibility\":7.850714328322596,\"predictability\":75},{\"id\":4779819034214400,\"weather_state_name\":\"Showers\",\"weather_state_abbr\":\"s\",\"wind_direction_compass\":\"SW\",\"created\":\"2019-06-10T02:59:01.909099Z\",\"applicable_date\":\"2019-06-13\",\"min_temp\":10.065,\"max_temp\":17.130000000000003,\"the_temp\":16.185000000000002,\"wind_speed\":6.915391369779157,\"wind_direction\":227.3636784240632,\"air_pressure\":1008.415,\"humidity\":68,\"visibility\":9.168021255865742,\"predictability\":73},{\"id\":5816725138309120,\"weather_state_name\":\"Light Cloud\",\"weather_state_abbr\":\"lc\",\"wind_direction_compass\":\"SSW\",\"created\":\"2019-06-10T02:59:01.289892Z\",\"applicable_date\":\"2019-06-14\",\"min_temp\":11.344999999999999,\"max_temp\":20.065,\"the_temp\":20.18,\"wind_speed\":5.409635528513482,\"wind_direction\":203.99999999999997,\"air_pressure\":1012.38,\"humidity\":56,\"visibility\":9.997862483098704,\"predictability\":70},{\"id\":4789561496436736,\"weather_state_name\":\"Showers\",\"weather_state_abbr\":\"s\",\"wind_direction_compass\":\"SSW\",\"created\":\"2019-06-10T02:59:04.293672Z\",\"applicable_date\":\"2019-06-15\",\"min_temp\":10.41,\"max_temp\":18.240000000000002,\"the_temp\":14.4,\"wind_speed\":6.262958522230176,\"wind_direction\":208.0,\"air_pressure\":1012.2,\"humidity\":67,\"visibility\":9.997862483098704,\"predictability\":73}],\"time\":\"2019-06-10T06:29:15.499650+01:00\",\"sun_rise\":\"2019-06-10T04:43:59.807269+01:00\",\"sun_set\":\"2019-06-10T21:16:13.470172+01:00\",\"timezone_name\":\"LMT\",\"parent\":{\"title\":\"England\",\"location_type\":\"Region / State / Province\",\"woeid\":24554868,\"latt_long\":\"52.883560,-1.974060\"},\"sources\":[{\"title\":\"BBC\",\"slug\":\"bbc\",\"url\":\"http://www.bbc.co.uk/weather/\",\"crawl_rate\":180},{\"title\":\"Forecast.io\",\"slug\":\"forecast-io\",\"url\":\"http://forecast.io/\",\"crawl_rate\":480},{\"title\":\"HAMweather\",\"slug\":\"hamweather\",\"url\":\"http://www.hamweather.com/\",\"crawl_rate\":360},{\"title\":\"Met Office\",\"slug\":\"met-office\",\"url\":\"http://www.metoffice.gov.uk/\",\"crawl_rate\":180},{\"title\":\"OpenWeatherMap\",\"slug\":\"openweathermap\",\"url\":\"http://openweathermap.org/\",\"crawl_rate\":360},{\"title\":\"Weather Underground\",\"slug\":\"wunderground\",\"url\":\"https://www.wunderground.com/?apiref=fc30dc3cd224e19b\",\"crawl_rate\":720},{\"title\":\"World Weather Online\",\"slug\":\"world-weather-online\",\"url\":\"http://www.worldweatheronline.com/\",\"crawl_rate\":360},{\"title\":\"Yahoo\",\"slug\":\"yahoo\",\"url\":\"http://weather.yahoo.com/\",\"crawl_rate\":180}],\"title\":\"London\",\"location_type\":\"City\",\"woeid\":44418,\"latt_long\":\"51.506321,-0.12714\",\"timezone\":\"Europe/London\"}",
+        "encodedBody" : false,
+        "templated" : false,
+        "headers" : {
+          "Allow" : [ "GET, HEAD, OPTIONS" ],
+          "Content-Language" : [ "en" ],
+          "Content-Type" : [ "application/json" ],
+          "Date" : [ "Mon, 10 Jun 2019 05:29:15 GMT" ],
+          "Hoverfly" : [ "Was-Here" ],
+          "Server" : [ "Google Frontend" ],
+          "Strict-Transport-Security" : [ "max-age=2592000; includeSubDomains" ],
+          "Transfer-Encoding" : [ "chunked" ],
+          "Vary" : [ "Accept-Language, Cookie" ],
+          "X-Cloud-Trace-Context" : [ "5a990bc3d14ebe1875eb8b2d95b5f904" ],
+          "X-Content-Type-Options" : [ "nosniff" ],
+          "X-Frame-Options" : [ "DENY" ],
+          "X-Xss-Protection" : [ "1; mode=block" ]
+        }
+      }
+    }, {
+      "request" : {
+        "path" : [ {
+          "matcher" : "exact",
           "value" : "/api/location/search/"
         } ],
         "method" : [ {
@@ -21,7 +138,7 @@
         "query" : {
           "query" : [ {
             "matcher" : "exact",
-            "value" : "London"
+            "value" : "london"
           } ]
         },
         "body" : [ {
@@ -29,17 +146,17 @@
           "value" : ""
         } ],
         "headers" : {
-          "Accept-Encoding" : [ {
+          "Accept" : [ {
             "matcher" : "exact",
-            "value" : "gzip"
+            "value" : "text/plain, application/xml, text/xml, application/json, application/cbor, application/*+xml, application/*+json, */*"
           } ],
           "Connection" : [ {
             "matcher" : "exact",
-            "value" : "Keep-Alive"
+            "value" : "keep-alive"
           } ],
           "User-Agent" : [ {
             "matcher" : "exact",
-            "value" : "okhttp/3.12.0"
+            "value" : "Java/1.8.0_162"
           } ]
         }
       },
@@ -52,13 +169,13 @@
           "Allow" : [ "GET, HEAD, OPTIONS" ],
           "Content-Language" : [ "en" ],
           "Content-Type" : [ "application/json" ],
-          "Date" : [ "Tue, 04 Jun 2019 06:46:39 GMT" ],
+          "Date" : [ "Mon, 10 Jun 2019 05:29:15 GMT" ],
           "Hoverfly" : [ "Was-Here" ],
           "Server" : [ "Google Frontend" ],
           "Strict-Transport-Security" : [ "max-age=2592000; includeSubDomains" ],
           "Transfer-Encoding" : [ "chunked" ],
           "Vary" : [ "Accept-Language, Cookie" ],
-          "X-Cloud-Trace-Context" : [ "7017bf019fd701c1d1c02354c65cb832" ],
+          "X-Cloud-Trace-Context" : [ "4489c18d44d6b267bf73a6fe7ec6106a" ],
           "X-Content-Type-Options" : [ "nosniff" ],
           "X-Frame-Options" : [ "DENY" ],
           "X-Xss-Protection" : [ "1; mode=block" ]
@@ -72,6 +189,6 @@
   "meta" : {
     "schemaVersion" : "v5",
     "hoverflyVersion" : "v1.0.0",
-    "timeExported" : "2019-06-04T00:46:40-06:00"
+    "timeExported" : "2019-06-09T23:29:16-06:00"
   }
 }
