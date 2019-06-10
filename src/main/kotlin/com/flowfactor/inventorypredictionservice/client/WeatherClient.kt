@@ -1,11 +1,6 @@
 package com.flowfactor.inventorypredictionservice.client
 
-import com.fasterxml.jackson.core.type.TypeReference
-import com.fasterxml.jackson.databind.ObjectMapper
-import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.flowfactor.inventorypredictionservice.config.RestTemplateConfig
-import com.flowfactor.inventorypredictionservice.dto.LocationDTOs
-import com.flowfactor.inventorypredictionservice.dto.LocationResponseDto
 import com.flowfactor.inventorypredictionservice.dto.WeatherResponseDto
 import mu.KotlinLogging
 import org.springframework.beans.factory.annotation.Autowired
@@ -13,7 +8,6 @@ import org.springframework.core.ParameterizedTypeReference
 import org.springframework.http.HttpMethod
 import org.springframework.stereotype.Service
 import org.springframework.web.client.RestTemplate
-import org.springframework.web.client.exchange
 import java.net.URI
 
 @Service
@@ -42,4 +36,3 @@ class WeatherClient(
     }
 }
 
-inline fun <reified T: Any> typeRef(): ParameterizedTypeReference<T> = object: ParameterizedTypeReference<T>(){}
